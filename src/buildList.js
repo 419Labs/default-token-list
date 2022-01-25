@@ -10,7 +10,7 @@ const mumbai = require("./tokens/mumbai.json");
 module.exports = function buildList() {
   const parsed = version.split(".");
   return {
-    name: "Uniswap Labs List",
+    name: "419Labs List",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -19,7 +19,7 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI: "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
-    keywords: ["uniswap", "default"],
+    keywords: ["419Labs", "default"],
     tokens: [...mainnet, ...ropsten, ...goerli, ...kovan, ...rinkeby, ...polygon, ...mumbai]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
