@@ -5,7 +5,10 @@
   "main": "build/419labs-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node src/write.js > build/419labs-default.tokenlist.json",
+    "clean": "rimraf build",
+    "build": "npm run clean && npm run build_l1 && npm run build_l2",
+    "build_l1": "rimraf build/419labs-default-l1.tokenlist.json && mkdir -p build && node src/write.js L1 > build/419labs-default-l1.tokenlist.json",
+    "build_l2": "rimraf build/419labs-default-l2.tokenlist.json && mkdir -p build && node src/write.js L2 > build/419labs-default-l2.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
