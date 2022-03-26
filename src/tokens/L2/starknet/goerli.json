@@ -1,10 +1,17 @@
 [
   {
-    "name": "TestToken",
-    "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
-    "symbol": "TST",
+    "name": "LAE_token",
+    "address": "0x011cd2f471c5a17c12c1bed4866878a6f1db43cd7599b0fae491ebccb0456e34",
+    "symbol": "LAE",
     "decimals": 18,
-    "chainId": 0,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6/logo.png"
-  }
+    "chainId": 1001,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+  },{
+  "name": "MRA_token",
+  "address": "0x0042152b203d0fb8350530ebd3b677ea0ff4841403d61cf0f1a884f22056a13f",
+  "symbol": "MRA",
+  "decimals": 18,
+  "chainId": 1001,
+  "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+}
 ]
